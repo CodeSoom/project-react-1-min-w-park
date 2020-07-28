@@ -3,7 +3,7 @@ const retrospectives = [
     id: 1,
     user_name: 'min-w-park',
     subject: '7주차 코드숨 회고',
-    fact: `TDD는 여전히 어렵습니다. 더군다나 Conatiner와 
+    fact: `TDD는 여전히 어렵습니다. 더군다나 Container와 
            그 안에 있는 컴포넌트에 대해 테스트를 작성 할 때
            테스트가 중복 되지 않기를 바라며 동시에 각 컴포넌트가
            어떤 테스트를 하는 것이 맞을지 고민이 많이 되었습니다.`,
