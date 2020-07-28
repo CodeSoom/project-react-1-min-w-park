@@ -9,5 +9,5 @@ test('App', () => {
     <App />
   ));
 
-  expect(container).toHaveTextContent('회고(Go)록');
+  expect(container).toHaveTextContent('함께 회,고(Go) 해요.');
 });
