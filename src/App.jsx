@@ -7,24 +7,10 @@ import {
 } from 'react-router-dom';
 
 import styled from '@emotion/styled';
-import { Global, css } from '@emotion/core';
 
+import GlobalStyle from './GlobalStyle';
 import RetrospectivesPage from './RetrospectivesPage';
 import WritingPage from './WritingPage';
-
-const GlobalStyles = css`
-  @font-face { 
-    font-family: 'MapoFlowerIsland'; 
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') 
-    format('woff'); 
-    font-weight: normal; 
-    font-style: normal; 
-  }
-
-  * {
-    font-family: 'MapoFlowerIsland';
-  }
-`;
 
 const Header = styled.div({
   margin: '5em 10em',
@@ -33,7 +19,7 @@ const Header = styled.div({
 export default function App() {
   return (
     <>
-      <Global styles={GlobalStyles} />
+      <GlobalStyle />
       <Header>
         <h1>
           <Link to="/">함께 회,고(Go) 해요.</Link>
